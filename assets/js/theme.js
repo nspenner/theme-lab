@@ -1,17 +1,17 @@
 const darkTheme = {
   "--accent-color": "#4acaa8",
   "--background-color": "#343737",
-  "--active-scroll-background": "#f0ffff",
+  "--active-scroll-background": "#343737",
   "--color-text": "white",
   "--sidebar-color": "#444c48"
 };
 
 const lightTheme = {
-  "--accent-color": "#4acaa8",
+  "--accent-color": "#4bcdab",
   "--background-color": "#f0ffff",
   "--active-scroll-background": "#f0ffff",
   "--color-text": "#777",
-  "--sidebar-color": "#4acaa8"
+  "--sidebar-color": "#4bcdab"
 };
 
 let currentTheme = lightTheme;

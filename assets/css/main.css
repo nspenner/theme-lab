@@ -8,9 +8,9 @@
 */
 
 :root {
-	--accent-color: #4acaa8;
+	--accent-color: #4bcdab;
 	--background-color: #f0ffff;
-	--sidebar-color: #4acaa8;
+	--sidebar-color: #4bcdab;
 	--active-scroll-background: #f0ffff;
 	--color-text: #777;
 }
@@ -21,7 +21,7 @@
 
 .theme-picker {
 	position: fixed;
-	right: 0;
+	left: 0;
 	z-index: 1;
 	background: white;
 	border: none;
@@ -1861,12 +1861,13 @@ input, select, textarea {
 		border-radius: 5px;
 		border: none;
 		border: solid 2px #e4e4e4;
-		color: inherit;
+		color: #777;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
 		width: 100%;
+		background: white;
 	}
 
 		input[type="text"]:invalid,
@@ -2785,7 +2786,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #f0ffff;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2823,7 +2824,6 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px var(--accent-color);
 					display: block;
 					padding: 0;
 				}
@@ -2859,7 +2859,7 @@ input, select, textarea {
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px var(--accent-color);
 	}
 
 		#main > section > .container {
