@@ -24,11 +24,21 @@
 	right: 0;
 	z-index: 1;
 	background: white;
-	border: 2px solid black;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.797);
+	font-size: 1rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    background: var(--background-color);
+	cursor: pointer;
+	margin: 1rem;
+	color: var(--color-text);
 }
 
-.theme-picker > button {
-	font-size: 1rem;
+.theme-picker:active {
+	box-shadow: 0 2px 3px -3px rgba(0,0,0,0.5);
+	color: var(--color-text);
 }
 
 html, body, div, span, applet, object,
