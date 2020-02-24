@@ -1005,6 +1005,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 1024px) {
 
+			.theme-picker {
+				top: 40px;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2852,7 +2856,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #fff;
+		background: var(--background-color);
 		padding-right: 23em;
 	}
 
